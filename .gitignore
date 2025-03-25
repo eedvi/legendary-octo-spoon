@@ -1,0 +1,43 @@
+# GoLand specific
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea_modules/
+
+# Go specific
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+
+# Debug files
+debug/
+debug.test
+
+# Binary output directories
+bin/
+pkg/
+
+# Dependency directories
+vendor/
+
+# Environment files
+.env
+*.env
+
+# System files
+.DS_Store
+*.swp
+*.swo
+
+# Go workspace file
+go.work
+
+# Test cache
+*.test
+*.tmp
